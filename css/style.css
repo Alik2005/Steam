@@ -1,0 +1,1844 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body{
+    margin: 0;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    width: 82%;
+    background-color: #171a21;
+    height: 104px;
+    display: inline-flex;
+    padding: 10px 0 10px 18%;
+
+}
+header img{
+    width: 14%;
+    padding-left: 20px;
+}
+header ul{
+    list-style: none;
+    display: inline-flex;
+}
+header ul li{
+    padding: 25px 0;
+    padding-right: 15px;
+}
+header ul li a{
+    text-decoration: none;
+    color: #c5c3c0;
+    font-size: 14px;
+    font-weight: 500;
+}
+header ul li a:hover{
+    color: #fff;
+}
+header div button{
+    background-color: #5c7e10;
+    border: none;
+    margin: 5px;
+    padding: 5px;
+    margin-left: 70px;
+}
+header div button a{
+    color: #e4e4e4;
+    text-decoration: none;
+    font-size: 11px;
+    padding: 2px;
+}
+header button a:hover{
+    color: #fff;
+}
+
+header p{
+    margin: 0;
+    padding: 10px;
+    font-size: 12px;
+    color: #c5c3c2;
+    cursor: pointer;
+}
+header p span:hover{
+    color: #fff;
+}
+/* ====================== main ======================== */
+/* ===================== block1 ====================== */
+main{
+    width: 100%;
+}
+.container1{
+    width: 94%;
+    padding: 20px 3%;
+    background: rgb(24,67,82);
+    background: linear-gradient(138deg, rgba(24,67,82,1) 0%, rgba(26,43,63,1) 52%);
+    display: inline-flex;
+}
+.block1{
+    width: 17%;
+  
+}
+.block1 img{
+    width: 90%;
+}
+.block1 h4{
+    font-size: 12px;
+    padding: 8px 0;
+    margin: 0;
+    color: #c6d4df;
+    font-weight: 300;
+}
+.block1 ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.block1 ul li{
+    padding: 2px 0;
+}
+.block1 ul li a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #61c0f4;
+}
+.block1 ul li a:hover{
+    color: #fff;
+}
+.block1 ul li i{
+    color: #61c0f4;
+}
+/* ======================= block2 ==================== */
+.block2{
+    width: 70%;
+}
+.nav1{
+    display: inline-flex;
+    background: rgb(59,100,145);
+    background: linear-gradient(82deg, rgba(59,100,145,1) 0%, rgba(25,52,123,1) 100%);
+}
+.nav1 a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #fff;
+    font-weight: 500;
+    padding: 10px;
+}
+.nav1 a:hover{
+    background: rgb(116,170,230);
+    background: linear-gradient(82deg, rgba(116,170,230,1) 0%, rgba(51,98,221,1) 100%);
+}
+.nav1 .search{
+    display: inline-flex;
+    position: relative;
+}
+.nav1 .search input::placeholder{
+    color: #000;
+    font-size: 15px;
+}
+.nav1 .search input{
+    border: 1px solid transparent;
+    width: 180px;
+    left: 50px;
+    position: relative;
+    color: #fff;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin-top: 3px;
+    background-color: #316282;
+    border-bottom: 2px solid #7baae0;
+}
+.nav1 .search input:hover{
+    border: 1px solid rgb(0, 141, 235);
+}
+.nav1 .search button{
+    color: #316282;
+    font-size: 20px;
+    cursor: pointer;
+    left: 15px;
+    position: relative;
+    border: none;
+    border-radius: 3px;
+    margin-top: 4px;
+    padding: 0px 5px;
+    height: 30px;
+    border-bottom: 3px solid #7baae0;
+    border-right: 3px solid #7baae0;
+    background-color: #539cc6;
+}
+.nav1 .search button:hover{
+    background-color: #68c8ff;
+}
+/* ================== grid1 ========================== */
+.h1{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    color: #fff;
+    margin: 0;
+}
+.gamegrid{
+    width: 95%;
+    display: grid;
+    grid-template-columns: 65% 35%;
+    grid-template-rows: 400px;
+    box-shadow: 0 0 20px #000;
+}
+.gamegrid .leftbox{
+    width: 100%;
+    background: url('https://media.contentapi.ea.com/content/dam/battlefield/battlefield-2042/homepage/common/bf-2042-section-bg-homepage-hero-keyart-xl.jpg.adapt.320w.jpg') center / cover;
+    cursor: pointer;
+}
+.gameimages{
+    padding-right: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 80px);
+    grid-gap: 10px;
+}
+.gameimages div:nth-child(1){
+    background: url('https://www.nme.com/wp-content/uploads/2021/06/battlefield-2042.jpg') center / cover;
+    box-shadow: inset 0 100vh 0 rgba(0, 0, 0, .5);
+}
+.gameimages div:nth-child(2){
+    background: url('https://3dnews.ru/assets/external/illustrations/2021/10/26/1052206/sm.battlefield_2042.750.jpg') center / cover;
+    box-shadow: inset 0 100vh 0 rgba(0, 0, 0, .5);
+}
+.gameimages div:nth-child(3){
+    background: url('https://cdn.igromania.ru/mnt/news/1/d/8/a/8/e/109430/fe52c1a819ca20b5_1920xH.jpg') center / cover;
+    box-shadow: inset 0 100vh 0 rgba(0, 0, 0, .5);
+}
+.gameimages div:nth-child(4){
+    background: url('https://asset.vg247.com/battlefield_2042_tier_one_specialist_skin_concept_crop.jpg/BROK/resize/1920x1920%3E/format/jpg/quality/80/battlefield_2042_tier_one_specialist_skin_concept_crop.jpg') center / cover;
+    box-shadow: inset 0 100vh 0 rgba(0, 0, 0, .5);
+}
+.gameimages div:nth-child(1):hover{
+    box-shadow: none;
+}
+.gameimages div:nth-child(2):hover{
+    box-shadow: none;
+}
+.gameimages div:nth-child(3):hover{
+    box-shadow: none;
+}
+.gameimages div:nth-child(4):hover{
+    box-shadow: none;
+}
+/* ==================================================== */
+.rightbox{
+    background-color: #09131c;
+    cursor: pointer;
+}
+.rightbox h1 a{
+    padding: 10px;
+}
+.rightbox a{
+    color: #fff;
+    text-decoration: none;
+}
+.rightbox p{
+    padding: 5px 10px;
+    font-size: 20px;
+    margin: 0;
+}
+.rightbox p a span{
+    padding: 2px;
+    font-size: 12px;
+    background-color: rgb(88, 88, 88);
+}
+.rightbox h4{
+    margin: 0;
+    padding: 0 10px;
+    font-size: 10px;
+    font-weight: 500;
+}
+.rightbox h4 a{
+    color: skyblue;
+}
+/*======================== grid2 ========================*/
+.gamegrid2{
+    width: 95%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 200px);
+    grid-gap: 10px;
+}
+.nameblock{
+    display: inline-flex;
+    width: 95%;
+}
+.nameblock h2{
+    border-radius: 2px;
+    cursor: pointer;
+    margin-top: 35px;
+    font-size: 13px;
+    padding: 3px;
+    border: 1px solid rgb(160, 160, 160);
+    color: #fff;
+    margin-left: auto;
+}
+.nameblock h2:hover{
+    border: 1px solid #fff;
+}
+
+.box1{
+    grid-row: 1 / 3;
+    position: relative;
+}
+.box1 img{
+    width: 100%;
+    cursor: pointer;
+    height: 100%;
+}
+.box2 img{
+    width: 100%;
+    cursor: pointer;
+    height: 100%;
+}
+.box2{
+    position: relative;
+    grid-row: 1 / 3;
+}
+.box3{
+    position: relative;
+    width: 100%;
+}
+.box3 img{
+    width: 100%;
+    cursor: pointer;
+    height: 100%;
+}
+.box4{
+    position: relative;
+    width: 100%;
+}
+.box4 img{
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+}
+
+.posabsolute1{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #347cc9;
+    height: 120px;
+    width: 100%;
+}
+.posabsolute1 h1{
+    font-size: 15px;
+    padding: 0 10px;
+    color: #fff;
+    font-weight: 500;
+}
+.posabsolute1 p{
+    font-size: 12px;
+    padding: 0 10px;
+    color: #13bafe;
+}
+/* ===== */
+.scene1{
+    height: 40px;
+    padding: 0 10px;
+}
+.scene1 h1{
+    color: #82be00;
+    margin: 0;
+    font-size: 25px;
+    padding: 3px 10px;
+    background-color: #5c7e10;
+}   
+.check1{
+    background-color: #1a2a3d;
+    width: 100%;
+    padding: 3px;
+}
+.check1 h4{
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    color: #3eb5f4;
+    font-weight: 500;
+}
+.check1 p{
+    color: gray;
+    text-decoration: line-through;
+    font-size: 12px;
+    margin: 0;
+    margin-left: 45px;
+    padding: 0;
+}
+/* ==================================================== */
+.posabsolute2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #347cc9;
+    height: 95px;
+    width: 100%;
+}
+.posabsolute2 h1{
+    font-size: 15px;
+    padding: 0 10px;
+    color: #fff;
+    font-weight: 500;
+}
+.scene2{
+    margin-top: 3px;
+    height: 40px;
+    padding: 0 10px;
+}
+.scene2 h1{
+    color: #82be00;
+    margin: 0;
+    font-size: 25px;
+    padding: 3px 10px;
+    background-color: #5c7e10;
+}   
+
+.check2{
+    background-color: #1a2a3d;
+    width: 100%;
+    padding: 3px;
+}
+.check2 h4{
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    color: #3eb5f4;
+    font-weight: 500;
+}
+.check2 p{
+    color: gray;
+    text-decoration: line-through;
+    font-size: 12px;
+    margin: 0;
+    margin-left: 45px;
+    padding: 0;
+}
+/* ==================================================== */
+.posabsolute3{
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #bdddff;
+    height: 55px;
+    width: 100%;
+}
+.scene3{
+    margin: 8px 0;
+    margin-left: auto;
+    height: 40px;
+    padding: 0 10px;
+}
+.scene3 h1{
+    color: #82be00;
+    margin: 0;
+    font-size: 25px;
+    padding: 3px 10px;
+    background-color: #5c7e10;
+}   
+
+.check3{
+    background-color: #1a2a3d;
+    width: 100%;
+    padding: 3px;
+}
+.check3 h4{
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    color: #3eb5f4;
+    font-weight: 500;
+}
+.check3 p{
+    color: gray;
+    text-decoration: line-through;
+    font-size: 12px;
+    margin: 0;
+    margin-left: 45px;
+    padding: 0;
+}
+
+.preddny1{
+    padding-left: 5px;
+}
+.preddny1 p{
+    font-size: 10px;
+    margin: 0;
+    padding: 5px 0;
+    padding-top: 10px;
+}
+.preddny1 h4{
+    margin: 0;
+    width: 80px;
+    font-size: 10px;
+    color: skyblue;
+    background-color: rgb(0, 112, 156);
+    padding: 2px;
+}
+/* ======================================================== */
+.posabsolute4{
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #bdddff;
+    height: 55px;
+    width: 100%;
+}
+.scene4{
+    margin: 8px 0;
+    margin-left: auto;
+    height: 40px;
+    padding: 0 10px;
+}
+.scene4 h1{
+    color: #82be00;
+    margin: 0;
+    font-size: 25px;
+    padding: 3px 10px;
+    background-color: #5c7e10;
+}   
+
+.check4{
+    background-color: #1a2a3d;
+    width: 100%;
+    padding: 3px;
+}
+.check4 h4{
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    color: #3eb5f4;
+    font-weight: 500;
+}
+.check4 p{
+    color: gray;
+    text-decoration: line-through;
+    font-size: 12px;
+    margin: 0;
+    margin-left: 45px;
+    padding: 0;
+}
+
+.preddny2{
+    padding-left: 5px;
+}
+.preddny2 p{
+    font-size: 10px;
+    margin: 0;
+    padding: 5px 0;
+    padding-top: 10px;
+}
+.preddny2 h4{
+    margin: 0;
+    width: 80px;
+    font-size: 10px;
+    color: skyblue;
+    background-color: rgb(0, 112, 156);
+    padding: 2px;
+}
+/* ======================= truckgrid ==================== */
+.truckgrid{
+    padding-top: 100px;
+    width: 95%;
+}
+.obsh{
+    width: 100%;
+}
+.obsh h1{
+    font-size: 23px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+.obsh h3{
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+.recgames{
+    width: 100%;
+}
+.recgames h2{
+    border-radius: 2px;
+    cursor: pointer;
+    color: #fff;
+    margin-top: 26px;
+    border: 1px solid rgb(160, 160, 160);
+    padding: 3px;
+    width: 100%;
+    margin-left: auto;
+    font-size: 13px;
+}
+.recgames h2:hover{
+    border: 1px solid #fff;
+}
+/* ============================= grid3 =================== */
+.grid3{
+    display: grid;
+    grid-template-columns: 65% 35%;
+    grid-template-rows: 360px;
+}
+.blocks1{
+    width: 100%;
+    background: url('https://steamrip.com/wp-content/uploads/2021/06/american-truck-simulator-free-download-pc-steamrip.jpg.webp') center / cover;
+}
+.blocks2{
+    background: rgb(40,81,111);
+    background: linear-gradient(4deg, rgba(40,81,111,1) 0%, rgba(61,95,142,1) 100%);
+    padding: 20px;
+}
+.blocks2 h4{
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+}
+.blocks2 p{
+    text-align: center;
+}
+.blocks2 p a{
+    text-decoration: none;
+    color: skyblue;
+    font-size: 12px;
+}
+
+
+.biographkohelet{
+    margin-top: 40px;
+    width: 100%;
+}
+.biographkohelet div{
+    padding: 0 10px;
+}
+.biographkohelet  img{
+    width: 50px;
+}
+.biographkohelet div h5{
+    margin: 0;
+    padding: 0;
+    color: rgb(174, 232, 255);
+}
+.biographkohelet div p{
+    font-size: 10px;
+    text-align: start;
+    margin: 0;
+    padding: 0;
+    color: rgb(223, 223, 223);
+}
+/* ====================================================== */
+.playgrid{
+    width: 95%;
+}
+.gridnav{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    grid-gap: 10px;
+}
+.gridnav div{
+    background: rgb(0,194,255);
+    background: linear-gradient(273deg, rgba(0,194,255,1) 10%, rgba(0,117,255,1) 100%);
+    padding: 20px;
+    border-radius: 5px;
+}
+.gridnav div:hover{
+    background: rgb(0,117,255);
+    background: linear-gradient(273deg, rgba(0,117,255,1) 0%, rgba(0,194,255,1) 100%);
+}
+.gridnav div a{
+    text-decoration: none;
+    color: #fff;
+}
+/* ========================= gamegrid ================== */
+.gridgame{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+.translation{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    margin: 0;
+    padding: 3px;
+    font-size: 13px;
+    background-color: #000;
+    color: #fff;
+    font-weight: 500;
+    box-shadow: 0 0 10px red;
+
+}
+.translation i{
+    color: red;
+    font-size: 10px;
+}
+.gameblock1:hover .translation{
+    color: skyblue;
+}
+.boxlive1:hover .translation{
+    color: skyblue;
+}
+.boxlive2:hover .translation{
+    color: skyblue;
+}
+.boxlive3:hover .translation{
+    color: skyblue;
+}
+.boxlive4:hover .translation{
+    color: skyblue;
+}
+.boxlive5:hover .translation{
+    color: skyblue;
+}
+.boxlive6:hover .translation{
+    color: skyblue;
+}
+.gameblock1{
+    position: relative;
+    cursor: pointer;
+}
+.gameblock2{
+    position: relative;
+        cursor: pointer;
+}
+.gameblock3{
+    position: relative;
+        cursor: pointer;
+}
+.gameblock4{
+    position: relative;
+        cursor: pointer;
+}
+.gameblock1 img{
+    width: 100%;
+    height: 100%;
+}
+.gameblock2 img{
+    width: 100%;
+    height: 100%;
+}
+.gameblock3 img{
+    width: 100%;
+    height: 100%;
+}
+.gameblock4 img{
+    width: 100%;
+    height: 100%;
+}
+/* ====================================================== */
+.buytype1{
+    bottom: 4px;
+    padding: 5px 0;
+    position: relative;
+    width: 100%;
+    background: rgb(0,67,144);
+    background: linear-gradient(273deg, rgba(0,67,144,1) 0%, rgba(0,112,148,1) 100%);
+}
+.buytype1 p{
+    font-size: 13px;
+    margin: 0;
+    padding: 2px;
+    text-align: right;
+    color: skyblue;
+}
+.span1{
+    background-color: green;
+    color: rgb(0, 224, 0);
+}
+.span2{
+    background-color: rgba(0, 0, 0, .5);
+    text-decoration: line-through;
+    color: rgb(128, 128, 128);
+}
+.span3{
+    background-color: rgba(0, 0, 0, .5);
+}
+/* ====================== container2 =================== */
+.container2{
+
+    background: rgb(24,67,82);
+    background: linear-gradient(187deg, rgba(24,67,82,1) 0%, rgba(26,42,59,1) 100%);
+    width: 81%;
+    padding-left: 19%;
+    padding-bottom: 30px;
+}
+.livegrid{
+    width: 77%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 240px);
+    grid-gap: 5px;
+}
+.boxlive1{
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+    background-color: #4c6569;
+}
+.boxlive2{
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+        background-color: #4c6569;
+}
+.boxlive3{
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+        background-color: #4c6569;
+}
+.boxlive4{
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+        background-color: #4c6569;
+}
+.boxlive5{
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+        background-color: #4c6569;
+}
+.boxlive6{
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+        background-color: #4c6569;
+}
+.boxlive1 img{
+    width: 100%;
+    height: 100%;
+}
+.boxlive2 img{
+    width: 100%;
+    height: 100%;
+}
+.boxlive3 img{
+    width: 100%;
+    height: 100%;
+}
+.boxlive4 img{
+    width: 100%;
+    height: 100%;
+}
+.boxlive5 img{
+    width: 100%;
+    height: 100%;
+}
+.boxlive6 img{
+    width: 100%;
+    height: 100%;
+}
+#playimage{
+    width: 20%;
+    z-index: 1;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    height: 20%;
+}
+.boxlive1 p{
+    padding: 10px 0;
+    width: 100%;
+    background-color: #4c6569;
+    bottom: 0;
+    position: absolute;
+    font-size: 13px;
+    color: gainsboro;
+    margin: 0;
+}
+.boxlive2 p{
+    padding: 10px 0;
+    width: 100%;
+    background-color: #4c6569;
+    bottom: 0;
+    position: absolute;
+    font-size: 13px;
+    color: gainsboro;
+    margin: 0;
+}
+.boxlive3 p{
+    padding: 10px 0;
+    width: 100%;
+    background-color: #4c6569;
+    bottom: 0;
+    position: absolute;
+    font-size: 13px;
+    color: gainsboro;
+    margin: 0;
+}
+.boxlive4 p{
+    padding: 10px 0;
+    width: 100%;
+    background-color: #4c6569;
+    bottom: 0;
+    position: absolute;
+    font-size: 13px;
+    color: gainsboro;
+    margin: 0;
+}
+.boxlive5 p{
+    padding: 10px 0;
+    width: 100%;
+    background-color: #4c6569;
+    bottom: 0;
+    position: absolute;
+    font-size: 13px;
+    color: gainsboro;
+    margin: 0;
+}
+.boxlive6 p{
+    padding: 10px 0;
+    width: 100%;
+    background-color: #4c6569;
+    bottom: 0;
+    position: absolute;
+    font-size: 13px;
+    color: gainsboro;
+    margin: 0;
+}
+
+.boxlive1 p span{
+    padding-left: 50%;
+}
+.boxlive2 p span{
+    padding-left: 50%;
+}
+.boxlive3 p span{
+    padding-left: 50%;
+}
+.boxlive4 p span{
+    padding-left: 50%;
+}
+.boxlive5 p span{
+    padding-left: 50%;
+}
+.boxlive6 p span{
+    padding-left: 50%;
+}
+/* ========================= forgrid ==================== */
+.forgrid{
+    width: 77%;
+}
+.gridfour{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 120px);
+    grid-gap: 5px;
+}
+.cont1{
+    width: 100%;
+    cursor: pointer;
+    position: relative;
+    background-color: rgb(37, 115, 146);
+}
+.cont2{
+    width: 100%;
+    cursor: pointer;
+    position: relative;
+    background-color: rgb(37, 115, 146);
+}
+.cont3{
+    width: 100%;
+    cursor: pointer;
+    position: relative;
+    background-color: rgb(37, 115, 146);
+}
+.cont4{
+    width: 100%;
+    cursor: pointer;
+    position: relative;
+    background-color: rgb(37, 115, 146);
+}
+.cont1 img{
+    width: 100%;
+    height: 100%;
+}
+.cont2 img{
+    width: 100%;
+    height: 100%;
+}
+.cont3 img{
+    width: 100%;
+    height: 100%;
+}
+.cont4 img{
+    width: 100%;
+    height: 100%;
+}
+/* ======================== endgrid ====================== */
+.endgrid{
+    width: 77%;
+}
+.lastgrid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 200px);
+    grid-gap: 10px;
+}
+
+.gallerygame1{
+    position: relative;
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+    width: 100%;
+}
+.gallerygame2{
+    position: relative;
+    width: 100%;
+}
+.gallerygame3{
+    position: relative;
+    width: 100%;
+}
+.gallerygame4{
+    width: 100%;
+        position: relative;
+}
+.gallerygame5{
+    width: 100%;
+        position: relative;
+}
+.gallerygame6{
+    width: 100%;
+        position: relative;
+}
+.gallerygame7{
+    width: 100%;
+        position: relative;
+}
+.gallerygame1 img{
+    width: 100%;
+    height: 100%;
+}
+.gallerygame2 img{
+    width: 100%;
+    height: 100%;
+}
+.gallerygame3 img{
+    width: 100%;
+    height: 100%;
+}
+.gallerygame4 img{
+    width: 100%;
+    height: 100%;
+}
+.gallerygame5 img{
+    width: 100%;
+    height: 100%;
+}
+.gallerygame6 img{
+    width: 100%;
+    height: 100%;
+}
+.gallerygame7 img{
+    width: 100%;
+    height: 100%;
+}
+.buytype2{
+    bottom: 0;
+    padding: 5px 0;
+    position: absolute;
+    width: 100%;
+    background: rgb(0,67,144);
+    background: linear-gradient(273deg, rgba(0,67,144,1) 0%, rgba(0,112,148,1) 100%);
+}
+.buytype3{
+    bottom: 0;
+    padding: 5px 0;
+    position: absolute;
+    width: 100%;
+    background: rgb(0,67,144);
+    background: linear-gradient(273deg, rgba(0,67,144,1) 0%, rgba(0,112,148,1) 100%);
+}
+.buytype2 p{
+    font-size: 13px;
+    margin: 0;
+    padding: 2px;
+    text-align: right;
+    color: skyblue;
+}
+.buytype3 p{
+    font-size: 13px;
+    margin: 0;
+    padding: 2px;
+    text-align: right;
+    color: skyblue;
+}
+/* =================== footer =========================== */
+.endform{
+    background-color: #000;
+    text-align: center;
+    padding: 10px;
+}
+.endform h1{
+    padding: 30px;
+    margin: 0;
+    color: skyblue;
+    font-weight: 500;
+}
+.endform a{
+    margin: 30px;
+    border-radius: 5px;
+    color: rgb(132, 255, 132);
+    text-decoration: none;
+    padding: 10px;
+    background-color: green;
+}
+.endform a:hover{
+    color: rgb(0, 56, 0);
+    background-color: rgb(0, 255, 0);
+}
+.endform p{
+    color: gainsboro;
+    font-size: 15px;
+    padding: 10px;
+}
+.endform p span{
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+.endform p span:hover{
+    color: skyblue;
+}
+/* =================== endfoot ====================== */
+.endfoot{
+    padding-bottom: 200px;
+    padding: 30px;
+    bottom: 20px;
+    padding-left: 19%;
+    background-color: rgb(10, 14, 27);
+}
+.endbox{
+    width: 79%;
+}
+.endbox img{
+    width: 10%;
+}
+#img1{
+   margin-left: 79%;
+}
+.endbox p{
+    color: rgb(139, 139, 139);
+    font-size: 12px;
+    margin: 0;
+    padding: 2px 0;
+}
+.endbox p span{
+    color: rgb(167, 167, 167);
+    font-weight: 500;
+    cursor: pointer;
+}
+.endbox p span:hover{
+    color: #fff;
+}
+.endbox a{
+    text-decoration: none;
+    padding: 0 5px;
+    font-size: 15px;
+    color: rgb(167, 167, 167);
+}
+.endbox a:hover span{
+    color: #fff;
+}
+
+/* переиспользуемые стили */
+.boxshadow{
+    box-shadow: 0 0 20px #000;
+}
+.displayflex{
+    display: inline-flex;
+}
+.translation{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    margin: 0;
+    padding: 3px;
+    font-size: 13px;
+    background-color: #000;
+    color: #fff;
+    font-weight: 500;
+
+}
+.translation i{
+    color: red;
+    font-size: 10px;
+}
+.gameblock1:hover .translation{
+    color: skyblue;
+}
+.grayline{
+    width: 100%;
+    height: .5px;
+    background-color: rgb(63, 63, 63);
+    margin: 10px 0;
+}
+/* ==================================================== */
+@media (max-width: 1286px){
+    .nav1 a{
+        font-size: 10px;
+    }
+    .scene1 h1{
+        font-size: 20px;
+        padding: 8px 5px;
+    }
+    .scene2 h1{
+        font-size: 20px;
+        padding: 8px 5px;
+    }
+    .scene3 h1{
+        font-size: 20px;
+        padding: 8px 5px;
+    }
+    .scene4 h1{
+        font-size: 20px;
+        padding: 8px 5px;
+    }
+    .preddny1 p{
+        font-size: 8px;
+    }
+    .preddny2 p{
+        font-size: 8px;
+    }
+    .scene3{
+        padding: 0;
+    }
+    .check3 h4{
+        font-size: 13px;
+    }
+    .check4 h4{
+        font-size: 13px;
+    }
+    .recgames h2{
+        font-size: 11px;
+    }
+    .gridnav a{
+        font-size: 13px;
+    }
+    .boxlive1 p span{
+        padding-left: 40%;
+    }
+    .boxlive2 p span{
+        padding-left: 40%;
+    }
+    .boxlive3 p span{
+        padding-left: 40%;
+    }
+    .boxlive4 p span{
+        padding-left: 40%;
+    }
+    .boxlive5 p span{
+        padding-left: 40%;
+    }
+    .boxlive6 p span{
+        padding-left: 40%;
+    }
+    .buytype2 p{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1200px){
+    .nav1 a{
+        font-size: 9px;
+    }
+    .biographkohelet{
+        margin: 0;
+    }
+    .recgames h2{
+        font-size: 10px;
+    }
+    .obsh h1{
+        font-size: 18px;
+    }
+    .obsh h3{
+        font-size: 16px;
+    }
+    .playgrid a{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1150px){
+    .nav1 a{
+        font-size: 8px;
+    }
+    .scene3 h1{
+        font-size: 15px;
+    }
+    .scene4 h1{
+        font-size: 15px;
+    }
+    .check3 h4{
+        font-size: 12px;
+    }
+    .check4 h4{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1100px){
+    header ul li a{
+        font-size: 12px;
+    }
+    .nav1 a{
+        font-size: 7px;
+    }
+    .rightbox p a{
+        font-size: 15px;
+    }
+    .scene3 h1{
+        padding: 10px 5px;
+        font-size: 12px;
+    }
+    .scene4 h1{
+        padding: 10px 5px;
+        font-size: 12px;
+    }
+    .check3 p{
+        font-size: 10px;
+    }
+    .check4 p{
+        font-size: 10px;
+    }
+    .check3 h4{
+        font-size: 10px;
+    }
+    .check4 h4{
+        font-size: 10px;
+    }
+    .recgames h2{
+        font-size: 9px;
+    }
+    .blocks2 h4{
+        font-size: 17px;
+    }
+    .playgrid a{
+        font-size: 11px;
+    }
+    .boxlive1 p span{
+        padding-left: 30%;
+    }
+    .boxlive2 p span{
+        padding-left: 30%;
+    }
+    .boxlive3 p span{
+        padding-left: 30%;
+    }
+    .boxlive4 p span{
+        padding-left: 30%;
+    }
+    .boxlive5 p span{
+        padding-left: 30%;
+    }
+    .boxlive6 p span{
+        padding-left: 30%;
+    }
+    .buytype2 p{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 1000px){
+    header ul li a{
+        font-size: 10px;
+    }
+    .nav1{ 
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .nav1 a{
+        font-size: 10px;
+    }
+    .nav1 .search input{
+        position: absolute;
+        width: 110%;
+        margin: 10px 0;
+        left: 0;
+    }
+
+    .nav1 .search button{
+        position: absolute;
+        left: 230px;
+        margin: 10px 0;
+    }
+    .rightbox h1 a{
+        font-size: 20px;
+    }
+
+    .gamegrid2{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .obsh h1{
+        font-size: 15px;
+    }
+    .obsh h3{
+        font-size: 13px;
+    }
+    .recgames h2{
+        font-size: 8px;
+    }
+    .blocks2 h4{
+        font-size: 15px;
+    }
+
+    .playgrid a{
+        font-size: 8px;
+    }
+    .buytype1 p{
+        font-size: 10px;
+    }
+    .buytype2 p{
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 950px){
+    header ul li a{
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 900px){
+    header ul{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .lastgrid{
+        grid-template-rows: repeat(2, 160px);
+    }
+    .livegrid{
+        grid-template-rows: repeat(2, 200px);
+    }
+    .recgames h2{
+        font-size: 7px;
+    }
+    .boxlive1 p span{
+        padding-left: 20%;
+    }
+    .boxlive2 p span{
+        padding-left: 20%;
+    }
+    .boxlive3 p span{
+        padding-left: 20%;
+    }
+    .boxlive4 p span{
+        padding-left: 20%;
+    }
+    .boxlive5 p span{
+        padding-left: 20%;
+    }
+    .boxlive6 p span{
+        padding-left: 20%;
+    }
+    .buytype2 p{
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 836px){
+    header ul li a{
+        font-size: 7px;
+    }
+    .rightbox h1 a{
+        font-size: 15px;
+    }
+    .rightbox p a{
+        font-size: 13px;
+    }
+    .blocks2 h4{
+        font-size: 14px;
+    }
+    .biographkohelet div p{
+        font-size: 8px;
+    }
+    .gridnav a{
+        font-size: 7px;
+    }
+    .buytype2 p{
+        font-size: 7px;
+    } 
+    .nav1 .search input{
+        width: 120%;
+    }
+
+}
+
+@media (max-width: 800px){
+    header ul li a{
+        font-size: 6px;
+    }
+    .obsh h1{
+        font-size: 14px;
+    }
+    .obsh h3{
+        font-size: 12px;
+    }
+    .blocks2 h4{
+        font-size: 13px;
+    }
+    .gridnav a{
+        font-size: 6px;
+    }
+    .gridgame .buytype1 p{
+        font-size: 9px;
+    }
+    .cont1 .translation{
+        font-size: 12px;
+    }
+    .cont4 .translation{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 750px){
+    header ul li a{
+        font-size: 5px;
+    }
+    .gamegrid{
+        grid-template-columns: 1fr;
+        grid-template-rows: 500px;
+    }
+    .nav1 .search input{
+        width: 130%;
+    }
+    .grid3{
+        grid-template-columns: 1fr;
+    }
+    .obsh h1{
+        font-size: 12px;
+    }
+    .obsh h3{
+        font-size: 10px;
+    }
+    .recgames h2{
+        font-size: 6px;
+    }
+    .gridfour .buytype1 p{
+        font-size: 9px;
+    }
+    .gridfour .translation{
+        font-size: 10px;
+    }
+    .lastgrid{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .gallerygame1{
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+    .gallerygame1 .buytype3 p{
+        font-size: 7px;
+    }
+}
+
+@media (max-width: 700px){
+    header{
+        padding-left: 0;
+        width: 100%;
+    }
+    header ul li{
+        padding-right: 5px;
+    }
+    .nameblock h2{
+        font-size: 10px;
+    }
+    .nameblock h1{
+        font-size: 10px;
+    }
+    .gamegrid2{
+        grid-template-rows: repeat(2, 300px);
+    }
+    .box1{
+        grid-row: 1 / 2;
+    }
+    .box2{
+        grid-row: 1 / 2;
+    }
+    .posabsolute1 h1{
+        font-size: 13px;
+    }
+    .posabsolute2 h1{
+        font-size: 13px;
+    }
+    .preddny1 h4{
+        font-size: 8px;
+    }
+    .preddny2 h4{
+        font-size: 8px;
+    }
+    .scene4 h1{
+        font-size: 10px;
+    }
+    .check4 p{
+        font-size: 8px;
+    }
+    .scene3 h1{
+        font-size: 10px;
+    }
+    .check3 h4{
+        font-size: 8px;
+    }
+    .check4 h4{
+        font-size: 8px;
+    }
+    .check3 p{
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 650px){
+    header ul li a{
+        font-size: 4px;
+    }
+    .check4 p{
+        font-size: 6px;
+    }
+    .check3 p{
+        font-size: 6px;
+    }
+    .check4 h4{
+        font-size: 6px;
+    }
+    .check3 h4{
+        font-size: 6px;
+    }
+    .scene3 h1{
+        font-size: 8px;
+    }
+    .scene4 h1{
+        font-size: 8px;
+    }
+    .preddny1 h4{
+        font-size: 5px;
+    }
+    .preddny2 h4{
+        font-size: 5px;
+    }
+    .preddny2 p{
+        font-size: 6px;
+    }
+    .preddny1 p{
+        font-size: 6px;
+    }
+    .check4{
+        padding: 0;
+    }
+    .check3{
+        padding: 0;
+    }
+    .gridnav a{
+        font-size: 4px;
+    }
+    .gridnav div{
+        padding: 10px;
+    }
+    .gridgame .buytype1 p{ 
+        font-size: 7px;
+    }
+    .gridfour .translation{
+        font-size: 6px;
+    }
+    .gridfour .buytype1 p{
+        font-size: 7px;
+    }
+    .nav1 .search input{
+        width: 160%;
+    }
+}
+
+@media (max-width: 600px){
+    header ul{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    header ul li{
+        padding: 3px;
+    }
+    header ul li a{
+        font-size: 10px;
+    }
+    .livegrid{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 230px);
+    }
+    .gridfour{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 200px);
+    }
+    .gridfour .buytype1{
+        bottom: 26px;
+    }
+    .lastgrid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .gamegrid2{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 400px);
+    }
+    .box1{
+        grid-row: 1 / 2;
+    }
+    .box2{
+        grid-row: 2 / 3;
+    }
+    .block1 ul li a{
+        font-size: 10px;
+    }
+    .block1 h4{
+        font-size: 10px;
+    }
+    .gridgame{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .gridgame .buytype1{
+        bottom: 25px;
+    }
+}
+
+@media (max-width: 550px){
+    header{
+        padding: 10px 0 10px 5%;
+        width: 95%;
+    }
+    .container1{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .block1{
+        padding-left: 18%;
+        width: 70%;
+        padding-bottom: 30px;
+    }
+    .block1 ul{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .block2{
+        padding-left: 18%;
+    }
+}
+
+@media (max-width: 510px){
+    header{
+        width: 100%;
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 500px){
+    header{
+        width: 100%;
+        padding-left: 0;
+    }
+    header div button{
+        margin-right: 0;
+        margin-left: 10px;
+    }
+    header div button a{
+        font-size: 6px;
+    }
+    header img{
+        padding: 0;
+    }
+    header p{
+        font-size: 8px;
+        padding: 10px 0;
+    }
+    header ul li a{
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 450px){
+    header ul li a{
+        font-size: 6px; 
+    }
+    .gridnav{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 400px){
+    .nav1 .search input{
+        width: 300%;
+    }
+    .nav1 a{
+        font-size: 8px;
+    }
+    .gamegrid2{
+        grid-template-rows: repeat(4, 200px);
+    }
+    .obsh h1{
+        font-size: 8px;
+    }
+    .obsh h3{
+        font-size: 6px;
+    }
+    .livegrid{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 200px);
+    }
+    .gridgame{
+        grid-template-columns: 1fr;
+    }
+    .gridnav{
+        grid-template-columns: 1fr;
+    }
+    .gridnav a{
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 350px){
+    header ul{
+        margin: 0;
+        padding: 0;
+    }
+    header ul li a{
+        padding-right: 1px;
+    }
+    header div button{
+        margin-left: 0;
+    }
+    .nav1 .search button{
+        left: 170px;
+    }
+}
+
+@media (max-width: 320px){
+    .nav1 a{
+        font-size: 6px;
+    }
+    .nav1 .search input{
+        width: 280%;
+    }
+    .posabsolute1 h1{
+        font-size: 10px;
+    }
+    .posabsolute2 h1{
+        font-size: 10px;
+    }
+    .gridfour{
+        grid-template-columns: 1fr;
+    }
+    .lastgrid{
+        grid-template-columns: 1fr;
+    }
+    .endform h1{
+        font-size: 15px;
+    }
+    .endform p{
+        font-size: 12px;
+    }
+    .endform a{
+        font-size: 12px;
+    }
+}
